@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  border: 2px solid green;
+  border-radius: 15px 15px 5px 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px grey;
+}
+.color {
+  width: 40px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+  order: 10;
+}
+.one{
+  background-color: tomato;
+  flex-basis: 50%;
+  order: 1;
+}
+.two{
+  background-color: steelblue;
+}
+.three{
+  background-color: rebeccapurple;
+  order: 2;
+}
+.fourth{
+  background-color: green;
+}
+.five{
+  background-color: orange;
+  flex-basis: 50%;
+  order: 1;
+}
